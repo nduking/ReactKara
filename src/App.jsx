@@ -1,5 +1,9 @@
-import React from "react";
+import React from 'react'
 
-export default function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+const App = () => {
+  return (
+    <div className='text-lg font-bold text-blue-900'>App</div>
+  )
 }
+
+export default App
