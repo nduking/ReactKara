@@ -4,7 +4,7 @@ const Testimonials = () => {
   const testimonialData = [
     {
       id: 1,
-      userImg: "/",
+      userImg: "/lady-oval.svg",
       quote:
         "You made it so simple. My new site is so much faster and easier to work with than my old site.",
       userName: "Isabella Chavez",
@@ -12,7 +12,7 @@ const Testimonials = () => {
     },
     {
       id: 2,
-      userImg: "/user_t.svg",
+      userImg: "/guy-Oval.svg",
       quote:
         "Simply the best. Better than all the rest. I’d recommend this product to beginners and advanced users.",
       userName: "Curtis Rhodes",
@@ -20,7 +20,7 @@ const Testimonials = () => {
     },
     {
       id: 3,
-      userImg: "/user_t.svg",
+      userImg: "/glass-Oval.svg",
       quote:
         "You made it so simple. My new site is so much faster and easier to work with than my old site.",
       userName: "Isabella Chavez",
@@ -28,7 +28,7 @@ const Testimonials = () => {
     },
     {
       id: 4,
-      userImg: "/user_t.svg",
+      userImg: "/lady-oval.svg",
       quote:
         "You made it so simple. My new site is so much faster and easier to work with than my old site.",
       userName: "Isabella Chavez",
@@ -36,7 +36,7 @@ const Testimonials = () => {
     },
     {
       id: 5,
-      userImg: "/user_t.svg",
+      userImg: "/guy-Oval.svg",
       quote:
         "You made it so simple. My new site is so much faster and easier to work with than my old site.",
       userName: "Isabella Chavez",
@@ -44,7 +44,7 @@ const Testimonials = () => {
     },
     {
       id: 6,
-      userImg: "/user_t.svg",
+      userImg: "/glass-Oval.svg",
       quote:
         "You made it so simple. My new site is so much faster and easier to work with than my old site.",
       userName: "Isabella Chavez",
@@ -67,23 +67,23 @@ const Testimonials = () => {
   }
   return (
     <section className="min-h-screen">
-      <div className="">
+      <div className="flex flex-col items-center justify-center">
         <h2 className="text-[36px] font-bold leading-6">
           What people say about us
         </h2>
-        <p className="font-light text-[19px]">
+        <p className="font-light text-[19px] w-[50%] flex items-center justify-center text-center mt-7">
           With lots of unique blocks, you can easily build a page without
           coding. Build your next landing page.
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-10 mt-20 w-[60%] mx-auto">
+      <div className="grid grid-cols-3 gap-8 mt-20 w-[70%] mx-auto">
         {testimonialData.map(({ id, userImg, userJD, userName, quote }) => (
           <div key={id} className="p-5 border rounded-md shadow-lg">
             <img src={userImg} alt={userName} />
-            <p>{quote}</p>
+            <p className="py-4">{quote}</p>
             <div>
-              <span>{userName}</span>
-              <span>{userJD}</span>
+              <span className="font-bold">{userName}</span>
+              <span className="font-extralight text-[#161C2D]">{userJD}</span>
             </div>
           </div>
         ))}
