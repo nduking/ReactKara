@@ -1,9 +1,23 @@
-import React from 'react'
+import React from "react";
+import Button from "./mini-component/Button";
 
 const Navbar = () => {
   return (
-    <div>Navbar</div>
-  )
-}
+    <nav>
+      <div>
+        <link>Brainwave.io</link>
+      </div>
+      <div>
+        <ul>
+          <link>Demos</link>
+          <link>Pages</link>
+          <link>Support</link>
+          <link>Contact</link>
+        </ul>
+        <Button className={""} btnText={"Get A Free Quote"} />
+      </div>
+    </nav>
+  );
+};
 
-export default Navbar
+export default Navbar;

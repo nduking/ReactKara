@@ -26,30 +26,6 @@ const Testimonials = () => {
       userName: "Isabella Chavez",
       userJD: "Graphic Designer",
     },
-    {
-      id: 4,
-      userImg: "/lady-oval.svg",
-      quote:
-        "You made it so simple. My new site is so much faster and easier to work with than my old site.",
-      userName: "Isabella Chavez",
-      userJD: "Graphic Designer",
-    },
-    {
-      id: 5,
-      userImg: "/guy-Oval.svg",
-      quote:
-        "You made it so simple. My new site is so much faster and easier to work with than my old site.",
-      userName: "Isabella Chavez",
-      userJD: "Graphic Designer",
-    },
-    {
-      id: 6,
-      userImg: "/glass-Oval.svg",
-      quote:
-        "You made it so simple. My new site is so much faster and easier to work with than my old site.",
-      userName: "Isabella Chavez",
-      userJD: "Graphic Designer",
-    },
   ];
 
   if (testimonialData.length === 0) {
@@ -67,7 +43,7 @@ const Testimonials = () => {
   }
   return (
     <section className="min-h-screen">
-      <div className="flex flex-col items-center justify-center">
+      <div className="flex flex-col items-center justify-center mt-7">
         <h2 className="text-[36px] font-bold leading-6">
           What people say about us
         </h2>
