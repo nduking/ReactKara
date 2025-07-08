@@ -14,7 +14,7 @@ const App = () => {
   return (
     <div className="overflow-x-hidden scroll-smooth font-mont">
       <Router>
-        {/* <Navbar/> */}
+        <Navbar/>
         <Routes>
           <Route path="/" element={<Homepage />} />
         </Routes>
@@ -24,4 +24,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default App; 

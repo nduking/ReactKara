@@ -8,7 +8,6 @@ import CTA from "../components/CTA";
 const Homepage = () => {
   return (
     <main>
-       {/* <Navbar/> */}
       <Hero />
       <Info />
       <Services />

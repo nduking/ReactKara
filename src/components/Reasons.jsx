@@ -49,7 +49,7 @@ const Reasons = () => {
               <div>
                 <p className="flex items-center gap-2 text-[19px] font-bold">
                   <BiCheck className="text-[#473BF0] text-3xl font-semibold" />
-                  Google Font Included
+                  Google Font Included  
                 </p>
               </div>
             </div>

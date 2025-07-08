@@ -31,13 +31,13 @@ const Services = () => {
   if (serviceData.length === 0) {
     return (
       <div className="text-3xl font-bold text-red-500 capitalize min-h-[50vh] flex items-center justify-center">
-        No data response
+        Please wait
       </div>
     );
   }
   if (!serviceData) {
     <div className="text-3xl font-bold text-red-500 capitalize min-h-[50vh] flex items-center justify-center">
-      Data didn't come
+      Please try agin later.
     </div>;
   }
   return (
