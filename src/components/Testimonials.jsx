@@ -1,4 +1,5 @@
 import React from "react";
+import Button from "./mini-component/Button";
 
 const Testimonials = () => {
   const testimonialData = [
@@ -63,6 +64,13 @@ const Testimonials = () => {
             </div>
           </div>
         ))}
+      </div>
+      <div className="w-[1400px] h-[150px] bg-[#68D585] mt-[60px] flex flex-row items-center justify-center space-x-2 mx-auto">
+        <p className="text-3xl font-bold text-white">Ready to get started?</p>
+        <Button
+          className={`bg-white w-[180px] h-[50px] rounded-lg text-brainyWaveBlack font-bold`}
+          btnText={`Get A Free Quote`}
+        />
       </div>
     </section>
   );

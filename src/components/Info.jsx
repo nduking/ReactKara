@@ -5,7 +5,7 @@ import Content from "./mini-component/Content";
 
 const Info = () => {
   return (
-    <section className="grid grid-cols-3 p-12">
+    <section className="grid grid-cols-3 p-12 mt-[100px] mb-[40px]">
       <div className="h-[419px] flex flex-col justify-center">
         <Heading
           className={`text-3xl font-bold w-[90%]`}
@@ -25,7 +25,7 @@ const Info = () => {
       </div>
       <div className="h-[419px]">
         <div className="mt-6 w-[75%]">
-          <Heading className={`text-3xl font-bold`} headingText={"1M+"} />
+          <Heading className={`text-3xl font-bold py-2`} headingText={"1M+"} />
           <Content
             className={`text-lg text-[#181f316c] font-normal`}
             contentText={
@@ -34,14 +34,17 @@ const Info = () => {
           />
         </div>
         <div className="mt-6 w-[75%]">
-          <Heading className={`text-3xl font-bold`} headingText={"92%"} />
+          <Heading className={`text-3xl font-bold py-2`} headingText={"92%"} />
           <Content
             className={`text-lg text-[#181f316c] font-normal`}
             contentText={"Satisfaction rate comes from our awesome customers."}
           />
         </div>
         <div className="mt-6 w-[75%]">
-          <Heading className={`text-3xl font-bold`} headingText={"4.9/5.0"} />
+          <Heading
+            className={`text-3xl font-bold py-2`}
+            headingText={"4.9/5.0"}
+          />
           <Content
             className={`text-lg text-[#181f316c] font-normal`}
             contentText={
