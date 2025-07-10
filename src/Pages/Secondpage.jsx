@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import Heros from "../Secondpagecomponents/Heros";
+import NavBar from "../Secondpagecomponents/NavBar";
 
 const Secondpage = () => {
   return (
-    <div>Secondpage</div>
-  )
-}
+    <main>
+      <NavBar />
+      <Heros />
+    </main>
+  );
+};
 
-export default Secondpage
+export default Secondpage;
