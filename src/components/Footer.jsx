@@ -10,6 +10,7 @@ import { FaLinkedin } from "react-icons/fa";
 const Footer = () => {
   return (
     <section className="grid grid-cols-5  bg-brainyWaveBlack w-[1400px] h-[350px] py-12 px-[180px] space-x-8 items-center justify-center mx-auto">
+      {/* Brainwave.io */}
       <div>
         <Heading
           className={`text-[28px] font-bold text-white py-5`}
