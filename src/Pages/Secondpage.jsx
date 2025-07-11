@@ -2,6 +2,8 @@ import React from "react";
 import Heros from "../Secondpagecomponents/Heros";
 import NavBar from "../Secondpagecomponents/NavBar";
 import Infos from "../Secondpagecomponents/Infos";
+import Category from "../Secondpagecomponents/Category";
+import Find from "../Secondpagecomponents/Find";
 
 const Secondpage = () => {
   return (
@@ -9,6 +11,8 @@ const Secondpage = () => {
       <NavBar />
       <Heros />
       <Infos/>
+      <Category/>
+      <Find/>
     </main>
   );
 };
