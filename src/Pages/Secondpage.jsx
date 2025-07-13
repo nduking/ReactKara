@@ -4,15 +4,17 @@ import NavBar from "../Secondpagecomponents/NavBar";
 import Infos from "../Secondpagecomponents/Infos";
 import Category from "../Secondpagecomponents/Category";
 import Find from "../Secondpagecomponents/Find";
+import Featured from "../Secondpagecomponents/Featured";
 
 const Secondpage = () => {
   return (
     <main>
       <NavBar />
       <Heros />
-      <Infos/>
-      <Category/>
-      <Find/>
+      <Infos />
+      <Category />
+      <Find />
+      <Featured />
     </main>
   );
 };
