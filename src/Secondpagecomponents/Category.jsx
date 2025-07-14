@@ -9,17 +9,17 @@ const Category = () => {
   return (
     <section className="px-32 py-24 bg-brainyWaveBlack">
       <div className="grid items-center justify-between grid-cols-2 mb-11">
-        <div className="w-[70%]">
+        <div className="">
           <Heading
             className={`text-3xl font-bold text-white py-5`}
             headingText={`Jobs by category`}
           />
           <Content
-            className={`text-[18px] text-white flex justify-end items-end`}
+            className={`text-[18px] text-white flex justify-end items-end w-[80%]`}
             contentText={`With lots of unique blocks, you can easily build a page without coding.`}
           />
         </div>
-        <div>
+        <div className="flex items-end justify-end w-[80%]">
           <Button
             className={`text-[#68D585] text-[17px] font-bold`}
             btnText={`Explore all categories`}

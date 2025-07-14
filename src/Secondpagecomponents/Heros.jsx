@@ -6,7 +6,7 @@ import Button from "../components/mini-component/Button";
 const Heros = () => {
   return (
     <section className="relative  bg-[url('/wave 1.svg')] bg-cover bg-center">
-      <div className="absolute inset-0 bg-#68D5851A"></div>
+      {/* <div className="absolute inset-0 bg-#68D5851A"></div> */}
       <div className="grid grid-cols-2 px-36">
         <div className="flex flex-col items-center w-[80%]">
           <Heading
