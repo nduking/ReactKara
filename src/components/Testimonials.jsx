@@ -44,16 +44,16 @@ const Testimonials = () => {
   }
   return (
     <section className="min-h-screen">
-      <div className="flex flex-col items-center justify-center mt-7">
+      <div className="flex flex-col items-center justify-center mx-auto mt-7">
         <h2 className="text-[36px] font-bold leading-6">
           What people say about us
         </h2>
-        <p className="font-light text-[19px] w-[50%] flex items-center justify-center text-center mt-7">
+        <p className="font-light text-[19px] lg:w-[50%] flex items-center justify-center text-center mt-7">
           With lots of unique blocks, you can easily build a page without
           coding. Build your next landing page.
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-8 mt-20 w-[70%] mx-auto">
+      <div className="grid lg:grid-cols-3 gap-8 mt-20 w-[70%] mx-auto">
         {testimonialData.map(({ id, userImg, userJD, userName, quote }) => (
           <div key={id} className="p-5 border rounded-md shadow-lg">
             <img src={userImg} alt={userName} />
@@ -65,7 +65,7 @@ const Testimonials = () => {
           </div>
         ))}
       </div>
-      <div className="w-[1400px] h-[150px] bg-[#68D585] mt-[60px] flex flex-row items-center justify-center space-x-2 mx-auto">
+      <div className="lg:w-[1400px] h-[150px] bg-[#68D585] mt-[60px] flex flex-col lg:flex-row items-center justify-center space-x-2 mx-auto">
         <p className="text-3xl font-bold text-white">Ready to get started?</p>
         <Button
           className={`bg-white w-[180px] h-[50px] rounded-lg text-brainyWaveBlack font-bold`}

@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import Button from "./mini-component/Button";
+import { BiMenu } from "react-icons/bi";
 
 const Navbar = () => {
   return (
@@ -10,7 +11,8 @@ const Navbar = () => {
           Brainwave.io
         </Link>
       </div>
-      <div className="flex items-center justify-between space-x-6 flex-cols">
+    <div className="hidden lg:block">
+        <div className="flex items-center justify-between space-x-6 flex-cols">
         <ul className="flex gap-2 space-x-5">
           <Link to="/" className="text-[#161C2D] font-bold">
             Demos
@@ -29,6 +31,10 @@ const Navbar = () => {
           className={`bg-brainyWavePurple py-2 px-4 rounded-lg text-white font-bold text-[17px]`}
           btnText={"Get A Free Quote"}
         />
+    </div>
+      </div>
+      <div className="block lg:hidden">
+        <BiMenu className="text-4xl font-bold text-brainyWaveBlack" />
       </div>
     </nav>
   );

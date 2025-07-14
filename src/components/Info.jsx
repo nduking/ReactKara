@@ -5,7 +5,7 @@ import Content from "./mini-component/Content";
 
 const Info = () => {
   return (
-    <section className="grid grid-cols-3 p-12 mt-[100px] mb-[40px]">
+    <section className="grid grid-cols-1 lg:grid-cols-3 p-12 mt-[100px] mb-[40px]">
       <div className="h-[419px] flex flex-col justify-center">
         <Heading
           className={`text-3xl font-bold w-[90%]`}

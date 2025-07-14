@@ -43,15 +43,15 @@ const Services = () => {
   return (
     <section className="min-h-screen bg-[#F4F7FA] py-20">
       <div className="flex flex-col items-center justify-center">
-        <h3 className="text-[36px] font-bold leading-6">
+        <h3 className="text-2xl lg:text-[36px] font-bold leading-6">
           Services we offer for you
         </h3>
-        <p className="font-light text-[19px] w-[50%] flex items-center justify-center text-center mt-7">
+        <p className="font-light lg:text-[19px] lg:w-[50%] flex items-center justify-center text-center mt-7">
           With lots of unique blocks, you can easily build a page without
           coding. Build your next landing page.
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-8 mt-20 w-[70%] mx-auto">
+      <div className="grid lg:grid-cols-3 gap-8 lg:mt-20 w-[70%] mx-auto">
         {serviceData.map(
           ({ id, serviceCta, serviceImg, serviceText, serviceTitle }) => (
             <div key={id} className="">

@@ -22,7 +22,7 @@ const Updates = () => {
             className="border rounded-sm h-[40px] px-5"
           />
           <Button
-            className={`bg-brainyWavePurple text-white text-[17px] rounded-md px-5 h-[40px]`}
+            className={`bg-brainyWavePurple text-white text-[16px] rounded-md px-6 h-[40px]`}
             btnText={`Subscribe`}
           />
         </form>
