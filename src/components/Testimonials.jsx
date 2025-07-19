@@ -45,7 +45,7 @@ const Testimonials = () => {
   return (
     <section className="min-h-screen">
       <div className="flex flex-col items-center justify-center mx-auto mt-7">
-        <h2 className="text-[36px] font-bold leading-6">
+        <h2 className="text-[36px] font-bold leading-6 text-center">
           What people say about us
         </h2>
         <p className="font-light text-[19px] lg:w-[50%] flex items-center justify-center text-center mt-7">
@@ -66,7 +66,7 @@ const Testimonials = () => {
         ))}
       </div>
       <div className="lg:w-[1400px] h-[150px] bg-[#68D585] mt-[60px] flex flex-col lg:flex-row items-center justify-center space-x-2 mx-auto">
-        <p className="text-3xl font-bold text-white">Ready to get started?</p>
+        <p className="text-3xl font-bold text-center text-white">Ready to get started?</p>
         <Button
           className={`bg-white w-[180px] h-[50px] rounded-lg text-brainyWaveBlack font-bold`}
           btnText={`Get A Free Quote`}

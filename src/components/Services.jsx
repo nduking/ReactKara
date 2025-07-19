@@ -41,7 +41,7 @@ const Services = () => {
     </div>;
   }
   return (
-    <section className="min-h-screen bg-[#F4F7FA] py-20">
+    <section className="py-2 min-h-screen bg-[#F4F7FA] lg:py-20">
       <div className="flex flex-col items-center justify-center">
         <h3 className="text-2xl lg:text-[36px] font-bold leading-6">
           Services we offer for you

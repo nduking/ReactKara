@@ -9,9 +9,9 @@ import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <section className="grid grid-cols-1 lg:grid-cols-5  bg-brainyWaveBlack lg:w-[1400px] lg:h-[350px] py-12 lg:px-[180px] lg:space-x-8 items-center justify-center mx-auto">
+    <section className="grid grid-cols-1 lg:grid-cols-5  bg-brainyWaveBlack lg:w-[1400px] lg:h-[350px] py-12 lg:px-[180px] lg:space-x-8 items-center justify-center mx-auto xl:w-[1600px] px-5">
       {/* Brainwave.io */}
-      <div>
+      <div className="block">
         <Heading
           className={`text-[28px] font-bold text-white py-5`}
           headingText={`Brainwave.io`}

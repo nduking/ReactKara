@@ -5,10 +5,10 @@ import Content from "./mini-component/Content";
 
 const Info = () => {
   return (
-    <section className="grid grid-cols-1 lg:grid-cols-3 p-12 mt-[100px] mb-[40px]">
-      <div className="h-[419px] flex flex-col justify-center">
+    <section className="grid grid-cols-1 lg:grid-cols-3 p-12 mt-[100px] lg:mb-[40px]">
+      <div className="lg:h-[419px] flex flex-col justify-center">
         <Heading
-          className={`text-3xl font-bold w-[90%]`}
+          className={` text-xl lg:text-3xl font-bold lg:w-[90%]`}
           headingText={`Experienced experts are giving advices.`}
         />
         <p className="text-[#181f316c] text-lg py-5 w-[90%]">
@@ -24,7 +24,7 @@ const Info = () => {
         <img src="/info_IMG BG.svg" alt="info_section" className="p-2" />
       </div>
       <div className="h-[419px]">
-        <div className="mt-6 w-[75%]">
+        <div className="lg:mt-6 lg:w-[75%]">
           <Heading className={`text-3xl font-bold py-2`} headingText={"1M+"} />
           <Content
             className={`text-lg text-[#181f316c] font-normal`}
@@ -33,14 +33,14 @@ const Info = () => {
             }
           />
         </div>
-        <div className="mt-6 w-[75%]">
+        <div className="lg:mt-6 lg:w-[75%]">
           <Heading className={`text-3xl font-bold py-2`} headingText={"92%"} />
           <Content
             className={`text-lg text-[#181f316c] font-normal`}
             contentText={"Satisfaction rate comes from our awesome customers."}
           />
         </div>
-        <div className="mt-6 w-[75%]">
+        <div className="lg:mt-6 lg:w-[75%]">
           <Heading
             className={`text-3xl font-bold py-2`}
             headingText={"4.9/5.0"}

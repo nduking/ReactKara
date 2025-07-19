@@ -12,15 +12,15 @@ const Reasons = () => {
         className={`bg-brainyWavePurple text-white text-x px-5 py-3 rounded-md`}
         btnText={`Resgister now`}
       /> */}
-      <div className="grid grid-cols-2 px-40 ">
+      <div className="grid px-5 lg:px-40 lg:grid-cols-2 ">
         <div className="pt-5 mt-5">
           <img src="/Content.png" alt="" />
         </div>
-        <div className="py-8 mt-10">
-          <h3 className="text-3xl font-bold leading-10 t-10">
+        <div className="py-4 lg:py-8 lg:mt-10">
+          <h3 className="text-2xl font-bold leading-10 lg:text-3xl lg:t-10">
             Reasons you should choose us to grow today.
           </h3>
-          <p className="text-[19px] font-[400] leading-8 text-[#161C2D]/50 mt-10">
+          <p className="text-[19px] font-[400] leading-8 text-[#161C2D]/50 lg:mt-10 mt-3">
             We share common trends and strategies for improving your rental
             income and making sure you stay in high demand.
           </p>
